@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
 
-resource = os.path.join(__root__.PROJECT_ROOT, 'data/simple_linear_regression/')
+resource = os.path.join(__root__.PROJECT_ROOT, 'data/regression/simple_linear_regression/')
 csv = os.path.join(resource, 'Salary_Data.csv')
 # reading dataset with read.csv
 dataset = pd.read_csv(csv)
