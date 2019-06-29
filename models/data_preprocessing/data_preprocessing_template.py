@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 
 # STEP 1
 # importing dataset
-resource = os.path.join(__root__.PROJECT_ROOT, 'data/part1_data_preprocessing/')
+resource = os.path.join(__root__.PROJECT_ROOT, 'data/data_preprocessing/')
 csv = os.path.join(resource, 'Data.csv')
 # reading dataset with read.csv
 dataset = pd.read_csv(csv)
