@@ -70,3 +70,5 @@ plt.show()
 print("Mean absolute error: ", metrics.mean_absolute_error(y_test, y_pred))
 print("mean squared error: ", metrics.mean_squared_error(y_test, y_pred))
 print("Root mean square error: ", np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
+# Explained variance score: 1 is perfect prediction
+print('Variance score: %.2f' % regressor.score(X_test, y_test))
